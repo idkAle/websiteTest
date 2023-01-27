@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+} 
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(9, 12, 112, 0.721);
+    position:sticky;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 36px 15px;
+    margin: 0 1px;
+}
+
+nav a:hover{
+    background: rgba(31, 34, 126, 0.808);
+
+}
+
+.banner-area{
+    background-image: url(images/unnamed.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    top: 100px;
+    opacity: .9;
+}
+
+.banner-area h2{
+    position: absolute;
+    padding: 4%;
+    font-size: 100px;
+    color: rgb(184, 210, 233);
+    bottom: 29%;
+   
+}
+
